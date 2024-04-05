@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+}
+.anchor {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.title {
+    font-size: 26px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 26px;
+}
+.text {
+    padding-left: 24px;
+    font-size: 18px;
+}
+
+.chart_wrap {
+    margin-top: 20px;
+    :global {
+        .echarts-for-react  {
+            margin: 0 auto;
+        }
+    }
+}
+
+.figure {
+  margin-top: 10px;
+  padding-left: 24px;
+  width: 80%;
+}
+
+:global {
+    .my-rc-anchor {
+  padding: 5px;
+  border: 1px solid #e4e4e4;
+}
+
+.my-rc-anchor .my-rc-anchor-header {
+  padding: 5px 0px;
+}
+
+
+.my-rc-anchor .my-rc-title-item {
+  margin-right: 10px;
+  padding: 2px 3px;
+}
+
+.my-rc-anchor .rc-title-item-active {
+  background-color: blue;
+  color: white;
+}
+
+.my-rc-anchor .my-rc-anchor-body {
+  border-top: 1px solid #e4e4e4;
+}
+
+.my-rc-anchor .my-body-item {
+  height: 200px;
+  padding: 5px;
+}
+
+.my-rc-anchor .my-body-item:nth-child(odd) {
+  background-color: green
+}
+
+.my-rc-anchor .my-body-item:nth-child(even) {
+  background-color: red
+}
+}

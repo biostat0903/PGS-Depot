@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: Avenir,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:where(.css-dev-only-do-not-override-1wazalj)[class^="ant-layout"], :where(.css-dev-only-do-not-override-1wazalj)[class*=" ant-layout"] {
+  font-family: Avenir,Helvetica,Arial,sans-serif;
+}
+
+.ant-menu {
+  font-family: Avenir,Helvetica,Arial,sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

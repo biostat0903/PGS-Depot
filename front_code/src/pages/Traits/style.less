@@ -1,0 +1,66 @@
+.container {
+    
+}
+
+.title {
+    color: #007c82;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 16px 0;
+}
+
+.content_wrap {
+    display: flex;
+    margin-top: 24px;
+}
+
+.left_tree {
+    width: 390px;
+    margin-right: 20px;
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+.legend_wrapper {
+    margin-top: 16px;
+}
+
+.tool_box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 54px;
+    margin-top: 40px;
+    background-color: #333;
+    padding-right: 8px;
+    :global {
+        .ant-input {
+            line-height: 28px;
+        }
+    }
+}
+
+.search {
+    width: 500px;
+    margin-right: 8px;
+}
+.download {
+    background-color: #007c82;
+    color: #fff;
+    width: 42px;
+    height: 38px;
+    line-height: 38px;
+    border-radius: 2px;
+}
+
+.table {
+    min-width: 1000px;
+    :global {
+        .ant-pagination-item-active {
+            border-color: #007c82;
+            a {
+                color: #007c82;
+            }
+        }
+    }
+}

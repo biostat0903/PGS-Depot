@@ -1,0 +1,106 @@
+.container {
+    
+}
+
+.title {
+    margin: 16px 0 24px;
+    font-size: 32px;
+    line-height: 38px;
+    span {
+        color: #398A96;
+    }
+}
+
+.information {
+    table {
+        border-collapse: collapse;
+        width: 96%;
+    }
+    :global {
+        .table_title {
+            text-align: center !important;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            font-weight: bold;
+            white-space: normal !important;
+        }
+        .table_title_c {
+            background-color: #398A96 !important;
+            color: #FFF;
+            border-left: 1px solid #398A96 !important;
+            border-right: 1px solid #398A96 !important;
+        }
+        .table_pgs_h td:first-child {
+            white-space: nowrap;
+            text-align: right;
+            vertical-align: top !important;
+            background-color: #e9ecef;
+        }
+        .table_pgs_h td {
+            padding: 10px;
+        }
+        .table-bordered td, .table-bordered th {
+            border: 1px solid #dee2e6;
+        }
+    }
+}
+
+.legend_wrapper {
+    display: flex;
+    margin: 48px 0 32px;
+}
+
+.table {
+    width: 100%;
+    :global {
+        table {
+                table-layout: fixed !important;
+            width: 100%;
+        }
+    }
+}
+
+.file {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: #398A96;
+    color: #fff;
+    width: 26px;
+    height: 32px;
+    cursor: pointer;
+}
+.btn_wrap {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    // height: 90px;
+    margin-left: 8px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    padding: 8px;
+}
+.download {
+    margin-right: 8px;
+}
+.download, .directory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 6px 12px;
+     border-radius: 4px;
+     background-color: #398A96;
+}
+.download a, .directory a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.charts_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

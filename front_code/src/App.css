@@ -1,0 +1,42 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  font-family: Avenir,Helvetica,Arial,sans-serif;
+}
+.layout .ant-layout-header {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 28px;
+  
+}
+.logo img {
+    height: 64px;
+    width: auto;
+  }
+.divider {
+  display: inline-flex;
+  width: 1px;
+  min-width: 1px;
+  background-color: #fff;
+  height: calc(100% - 30px);
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.nav {
+  flex: 1;
+}
+.nav .ant-menu-item-selected {
+  background-color: #fff !important;
+}
+.nav .ant-menu-item-selected .ant-menu-title-content {
+  color: #080808;
+}
+.nav .ant-menu-title-content {
+  transition: unset;
+}

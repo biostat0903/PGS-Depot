@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    :global {
+        .legend-item {
+            display: block;
+            white-space: nowrap;
+            padding: 2px 6px;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+            margin-bottom: 4px;
+            cursor: pointer;
+        }
+        .legend2 {
+            position: relative;
+            padding-left: 80px;
+        }
+        .legend2-arrow {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 2px;
+        }
+        .legend2-arrow-right {
+            margin-top: -5px;
+            width: 10px;
+            height: 10px;
+            border-top: 2px solid;
+            border-right: 2px solid;
+            transform: rotate(45deg) translate(22px, -21px);
+        }
+    }
+}
+
+.legend_wrap {
+    padding-top: 20px;
+    margin-left: 40px;
+}
